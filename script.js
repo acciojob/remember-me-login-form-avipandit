@@ -1,7 +1,7 @@
 const form = document.querySelector('form');
 const username = document.querySelector('#username');
 const password = document.querySelector('#password');
-const rememberMe = document.querySelector('#remember-me');
+const rememberMe = document.querySelector('#checkbox');
 
 		form.addEventListener('submit', function(event) {
 			event.preventDefault();
